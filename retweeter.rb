@@ -52,6 +52,3 @@ class Retweeter
     last_retweet.text.gsub!("RT @#{@tweeting_username}: ", "")
   end
 end
-
-retweeter = Retweeter.new(TWEETING_USERNAME)
-retweeter.retweet!
