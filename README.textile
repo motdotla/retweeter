@@ -1,12 +1,14 @@
 h1. Retweeter
 
-h2. Usage
+p. Retweeter automatically retweets your statuses from one account to another. It only retweets status with a link in them and that are not a reply to someone else.
+
+h2. Setup
 
 # Get your Twitter OAuth credentials. Register an app at http://dev.twitter.com/apps
 # heroku config:add CONSUMER_KEY="key" CONSUMER_SECRET="secret" OAUTH_TOKEN="token" OAUTH_TOKEN_SECRET="token_secret"
+# Update the TWEETING_USERNAME in clock.rb
 # gem install bundler
 # bundle
 # bundle exec heroku create --stack cedar
 # git push heroku master
 # bundle exec heroku scale web=0 clock=1
-
