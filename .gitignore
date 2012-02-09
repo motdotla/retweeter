@@ -1,0 +1,5 @@
+.DS_Store
+log/*
+!log/production.log
+tmp/*
+configuration.rb

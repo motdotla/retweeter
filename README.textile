@@ -1,0 +1,7 @@
+h1. Retweeter
+
+h2. Usage
+
+# Get your Twitter OAuth credentials. Register an app at http://dev.twitter.com/apps
+# Rename configuration.rb.example to configuration.rb and enter your oauth credentials.
+# push to heroku
